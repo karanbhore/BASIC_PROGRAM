@@ -44,5 +44,16 @@ public class ArrayElementShifting {
 //		System.out.println(Arrays.toString(arr));
 
 
+		String s=new String("hello");
+		String b="hello";
+		System.out.println(s==b);
+		StringBuffer sb=new StringBuffer( "   ");
+//		sb.append("hi");
+		System.out.println(s.endsWith(b));
+		System.out.println(b.equals(sb));
+		
+		System.out.println(sb.capacity());
+		
+		
 	}
 }
