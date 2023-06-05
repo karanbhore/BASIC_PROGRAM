@@ -28,5 +28,9 @@ public class Professor {
 	public static void main(String[] args) {
 		Professor obj=new Professor(100, "Raj", "BE MECH", 10.3, "Software development");
 		System.out.println(obj.toString());
+//		System.out.println(obj==obj1);
+		Professor obj1=new Professor(100, "Raj", "BE MECH", 10.3, "Software development");
+		Professor obj2=obj1;
+		System.out.println(obj1==obj2);
 	}
 }

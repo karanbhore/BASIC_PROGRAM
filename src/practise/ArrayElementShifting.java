@@ -53,7 +53,7 @@ public class ArrayElementShifting {
 		System.out.println(b.equals(sb));
 		
 		System.out.println(sb.capacity());
-		
+
 		
 	}
 }

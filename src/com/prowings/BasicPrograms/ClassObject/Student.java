@@ -27,6 +27,7 @@ public class Student {
 		student1.acceptData(101, "Ram", 90.56, "Mumbai");
 
 		student1.displayData();
+		
 
 	}
 
